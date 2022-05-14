@@ -5,6 +5,7 @@ use Alfred\Workflows\Workflow;
 require_once('vendor/Workflow.php');
 require_once('vendor/Result.php');
 require_once('util/request.php');
+
 const ICON = 'icon.png';
 const ERROR_ICON = 'error.png';
 
