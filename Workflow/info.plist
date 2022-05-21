@@ -20,16 +20,6 @@
 				<key>vitoclose</key>
 				<false/>
 			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>4E7C7A9E-FBB0-4E96-925F-ACC695527E85</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
 		</array>
 		<key>5AE55621-F13E-4821-BED7-0AA3E2FD25AF</key>
 		<array>
@@ -163,10 +153,30 @@ require_once('ip.php');
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>concurrently</key>
+				<key>alfredfiltersresults</key>
 				<false/>
-				<key>escaping</key>
+				<key>alfredfiltersresultsmatchmode</key>
 				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<false/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>ip</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string></string>
 				<key>script</key>
 				<string># THESE VARIABLES MUST BE SET. SEE THE ONEUPDATER README FOR AN EXPLANATION OF EACH.
 readonly remote_info_plist='https://raw.githubusercontent.com/augusl/ip-info-workflow/main/Workflow/info.plist'
@@ -247,15 +257,21 @@ fi</string>
 				<integer>1</integer>
 				<key>scriptfile</key>
 				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string></string>
 				<key>type</key>
 				<integer>0</integer>
+				<key>withspace</key>
+				<false/>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.action.script</string>
+			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
-			<string>4E7C7A9E-FBB0-4E96-925F-ACC695527E85</string>
+			<string>D27093D3-8FA1-49CC-B1E4-DB963A70DF85</string>
 			<key>version</key>
-			<integer>2</integer>
+			<integer>3</integer>
 		</dict>
 	</array>
 	<key>readme</key>
@@ -268,17 +284,6 @@ fi</string>
 			<integer>475</integer>
 			<key>ypos</key>
 			<integer>170</integer>
-		</dict>
-		<key>4E7C7A9E-FBB0-4E96-925F-ACC695527E85</key>
-		<dict>
-			<key>colorindex</key>
-			<integer>12</integer>
-			<key>note</key>
-			<string>OneUpdater</string>
-			<key>xpos</key>
-			<integer>480</integer>
-			<key>ypos</key>
-			<integer>300</integer>
 		</dict>
 		<key>59E2C4CA-77CD-49AC-BD59-251B4B95CFFA</key>
 		<dict>
@@ -293,6 +298,17 @@ fi</string>
 			<integer>60</integer>
 			<key>ypos</key>
 			<integer>170</integer>
+		</dict>
+		<key>D27093D3-8FA1-49CC-B1E4-DB963A70DF85</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>12</integer>
+			<key>note</key>
+			<string>OneUpdater</string>
+			<key>xpos</key>
+			<integer>270</integer>
+			<key>ypos</key>
+			<integer>315</integer>
 		</dict>
 	</dict>
 	<key>variablesdontexport</key>
